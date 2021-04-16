@@ -1,0 +1,76 @@
+/* css document*/ 
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 2.3em;
+	border: 0;
+	vertical-align: baseline;
+}
+
+body {
+    background: rgb(245, 245, 245);
+}
+
+
+h1 { 
+    color: rgb(40, 40, 40); 
+    font-size: 3em; 
+    font-family: sans-serif; 
+    padding: 0em 0em 0em 0em;
+}
+
+h2 { 
+    color: rgb(40, 40, 40); 
+    font-size: 1em; 
+    font-family: sans-serif;
+    padding: 0em 0em 0.5em 0em
+}
+
+li {
+    list-style: none;
+    padding: 0;
+}
+
+ul {
+    padding: 0;
+}
+
+h3 { 
+    color: rgb(40, 40, 40); 
+    font-size: 1.5em; 
+    font-family: sans-serif;
+    padding: 2em 0em 0.1em 0em;
+}
+
+h4 { 
+    color: rgb(40, 40, 40); 
+    font-size: 0.9em; 
+    font-family: sans-serif;
+    line-height: 1.3em;
+    padding: 1.2em 0em 0.5em 0em;
+}
+
+p { 
+    color: rgb(40, 40, 40); 
+    font-size: 0.9em; 
+    font-family: sans-serif;
+    line-height: 1.3em;
+    padding: 0em 0em 0.5em 0em;
+}

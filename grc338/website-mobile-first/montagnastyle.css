@@ -25,14 +25,9 @@ html {
     font-family: sans-serif;
 }
 
-header {
-    text-align: center;
-}
-
 nav {
     padding: 0em 0em 1.5em 0em;
 }
-
 
 nav ul li {
     display: inline;
@@ -66,8 +61,8 @@ body {
     background: rgb(245, 245, 245);
 }
 
-greeting {
-    padding: 1em;
+.greeting {
+    padding: 1em 0em 1em 0em;
 }
 
 /*Section titles (Hungry?)*/
@@ -91,7 +86,7 @@ h3 {
 }   
 
 /*Spacing below menu page image*/
-menupage h2 {
+.menupage h2 {
     padding-top: 0.5em;
 }
 
@@ -118,12 +113,12 @@ h5 {
 }   
 
 /*Menu list*/
-menu ul {
+.menu ul {
     list-style: none;
 }
 
 /*Menu list items*/
-menu li { 
+.menu li { 
     list-style: none;
     list-style-position: inside;
     color: rgb(40, 40, 40); 

@@ -1,0 +1,184 @@
+@import url("https://use.typekit.net/bab2nab.css");
+
+/*CSS DOCUMENT*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+div.container {
+    max-width: 40em;
+    margin: auto;
+}
+
+nav {
+    padding: 0em 0em 1.5em 0em;
+}
+
+nav ul li {
+    display: inline;
+    list-style: none;
+    margin-right: 1em;    
+    font-size: 1em; 
+    font-family: "aileron", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-transform: none;
+}
+
+nav ul li a {
+    color: rgb(40, 40, 40); 
+    text-decoration: none;
+    
+}
+
+nav ul li a:hover {
+    color: rgb(140, 30, 30); 
+    border-bottom: solid 2px;
+}
+
+img {
+    width: 100%; 
+}
+
+article{
+    max-width: auto;
+    margin: auto;
+}
+
+@media screen and (min-width: 50em) {
+    div.logo {
+        max-width: 50%;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 2em;
+    background: rgb(245, 245, 245);
+}
+
+.greeting {
+    padding: 1em 0em 1em 0em;
+}
+
+/*Section titles (Hungry?)*/
+h2 { 
+    color: rgb(40, 40, 40); 
+    font-size: 1.9em; 
+    font-family: "aileron", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    padding: 0em 0em 0em 0em;
+}
+
+/*Section subtitles (You can eat it)*/
+h3 {
+    color: rgb(40, 40, 40); 
+    font-size: 1em; 
+    font-family: "aileron", sans-serif;
+    font-weight: 550;
+    font-style: normal;
+    padding: 0.1em 0em 0em 0em;
+}   
+
+/*Spacing below menu page image*/
+.menupage h2 {
+    padding-top: 0.5em;
+}
+
+/*Menu classes (Pizza)*/
+h4 {
+    color: rgb(40, 40, 40); 
+    font-size: 1.6em; 
+    font-family: "aileron", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    border-bottom: solid 2px;
+    padding-bottom: 0.1em;
+    margin: 0.6em 0em 0.5em 0em;
+}   
+
+/*Menu items (Kickin' carnitas)*/
+h5 {
+    color: rgb(40, 40, 40); 
+    font-size: 1em; 
+    font-family: "aileron", sans-serif;
+    font-weight: 680;
+    font-style: normal;
+    padding: 0em 0em 0em 0em;
+}   
+
+/*Menu list*/
+.menu ul {
+    list-style: none;
+}
+
+/*Menu list items*/
+.menu li { 
+    list-style: none;
+    list-style-position: inside;
+    color: rgb(40, 40, 40); 
+    font-size: 0.95em; 
+    font-family: "aileron", sans-serif;
+    font-weight: 380;
+    font-style: normal;
+    line-height: 1.5;
+	padding: 0em 1em 0.8em 0em;
+}
+
+main p {
+    color: rgb(40, 40, 40); 
+    font-size: 1em; 
+    font-family: "aileron", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding: 0em 0em 1em 0em;
+}   
+
+.menubottom p {
+    color: rgb(40, 40, 40); 
+    font-size: 1em; 
+    font-family: "aileron", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding: 0em 0em 1em 0em;
+}   
+
+p a {
+    text-decoration: none;
+    font-weight: 300;
+    color: rgb(140, 30, 30); 
+}
+
+p a:hover {
+    border-bottom: solid 1px;
+}
+
+footer {
+    color: rgb(40, 40, 40); 
+    font-size: 0.7em; 
+    font-family: "aileron", sans-serif;
+    font-weight: 520;
+    font-style: oblique;
+    padding: 1em 0em 1em 0em;
+}   
